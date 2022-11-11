@@ -1,0 +1,70 @@
+body {
+    background-color: royalblue;
+}
+
+.TOPBAR {
+    color: white;
+    background-color: rgb(56, 41, 185);
+    text-align: center;
+    width: 100%;
+    height: 2.5rem;
+    position: fixed;
+    top: -0.4rem;
+    right: 0rem;
+    font-size: 1rem;
+    font-style: oblique;
+}
+
+.TOPBAR h1 {    
+    position: relative;
+    top: -1rem;
+}
+
+.TOPBAR article {
+    position: relative;
+    overflow: hidden;
+    flex-wrap: wrap;
+    top: -2rem;
+}
+
+.FrontPage {
+    background-color: rgb(80, 117, 228);
+    position: relative;
+    top: 5rem;
+    width: 100%;
+    height: 9rem;
+    color: white;
+}
+
+.Game1 {
+    text-align: center;
+    width: fit-content;
+}
+
+.Game1 h3 {
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    top: -1.5rem;
+}
+
+.Game1:hover {
+    cursor: pointer;
+}
+
+.Game2 {
+    text-align: center;
+    position: relative;
+    left: 10rem;
+    top: -11.85rem;
+    width: fit-content;
+}
+
+.Game2:hover {
+    cursor: pointer;
+}
+
+.Game2 h3 {
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    top: -1.5rem;
+}
