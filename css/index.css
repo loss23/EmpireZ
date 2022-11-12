@@ -32,11 +32,17 @@ body {
     position: relative;
     top: 5rem;
     width: 100%;
-    height: 9rem;
+    height: 12rem;
     color: white;
 }
 
+.FrontPage h2 {
+    font-size: 1.2rem;
+    position: relative;
+}
+
 .Game1 {
+    position: relative;
     text-align: center;
     width: fit-content;
 }
@@ -51,16 +57,26 @@ body {
     cursor: pointer;
 }
 
+.Game1:hover img {
+    width: 8rem;
+    border-radius: .2rem;
+}
+
 .Game2 {
     text-align: center;
     position: relative;
-    left: 10rem;
+    left: 8rem;
     top: -11.85rem;
     width: fit-content;
 }
 
 .Game2:hover {
     cursor: pointer;
+}
+
+.Game2:hover img {
+    width: 8rem;
+    border-radius: .2rem;
 }
 
 .Game2 h3 {
