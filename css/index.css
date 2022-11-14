@@ -84,3 +84,27 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     top: -1.5rem;
 }
+
+
+.Game3 {
+    text-align: center;
+    position: relative;
+    left: 18rem;
+    top: -23.64rem;
+    width: fit-content;
+}
+
+.Game3:hover {
+    cursor: pointer;
+}
+
+.Game3:hover img {
+    width: 8rem;
+    border-radius: .2rem;
+}
+
+.Game3 h3 {
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    top: -1.5rem;
+}
